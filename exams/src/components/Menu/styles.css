@@ -1,0 +1,37 @@
+.menu-exams {
+  height: 30px;
+  background-color: #87cfe7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-exams ul {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.menu-exams ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-exams ul li a.active {
+  color: lightseagreen;
+}
+
+.menu-exams ul li a:hover {
+  color: lightseagreen;
+}
+
+.menu-exams ul li + li {
+  margin-left: 15px;
+}

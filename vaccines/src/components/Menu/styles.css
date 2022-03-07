@@ -1,0 +1,37 @@
+.menu-vaccines {
+  height: 30px;
+  background-color: #87cfe7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-vaccines ul {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.menu-vaccines ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-vaccines ul li a.active {
+  color: lightseagreen;
+}
+
+.menu-vaccines ul li a:hover {
+  color: lightseagreen;
+}
+
+.menu-vaccines ul li + li {
+  margin-left: 15px;
+}

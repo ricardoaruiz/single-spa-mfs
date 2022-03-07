@@ -1,0 +1,37 @@
+.header {
+  background-color: #add8e6;
+  height: 80px;
+  display: flex;
+}
+
+.header__menu {
+  flex: 1;
+  align-self: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header__menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.header__menu ul li {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.header__menu ul li:hover {
+  color: lightseagreen;
+}
+.header__menu ul li + li {
+  margin-left: 15px;
+}
+
+.header__menu-item---active {
+  color: lightseagreen;
+}
