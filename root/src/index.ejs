@@ -39,13 +39,13 @@
     }
   </script>
 
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
+  <!-- <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"> -->
 
   <!-- Add your organization's prod import map URL to this script's src  -->
-  <!-- <script 
+  <script 
     type="systemjs-importmap" 
-    src="https://00f74ba44bc7f9f3d0f1c4756c4596800c26305477-apidata.googleusercontent.com/download/storage/v1/b/single-spa-example/o/importmap.json">
-  </script> -->
+    src="https://rar-single-spa-demo.s3.amazonaws.com/importmap.json">
+  </script>
 
   <% if (isLocal) { %>
     <script type="systemjs-importmap">
@@ -57,7 +57,9 @@
           "@soma/vaccines": "//localhost:8082/soma-vaccines.js"
         }
       }
-    </script>    
+    </script>
+  <%} else {%>
+    <link rel="preload" href="https://rar-single-spa-demo.s3.amazonaws.com/importmap.json" as="script">
   <% } %>
 
   <!--
