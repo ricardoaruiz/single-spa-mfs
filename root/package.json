@@ -1,5 +1,10 @@
 {
   "name": "@soma/root-config",
+  "engines": {
+    "node": "16.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
   "scripts": {
     "start": "node ./src/server.js",
     "start:local": "webpack serve --port 9000 --env isLocal",
