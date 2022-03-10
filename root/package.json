@@ -9,9 +9,8 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "prepare": "husky install",
-    "build": "concurrently yarn:build:*",
     "build:dev": "webpack --mode=development --env isLocal",
-    "build:prod": "webpack --mode=production",
+    "build": "webpack --mode=production",
     "build:types": "tsc"
   },
   "devDependencies": {
