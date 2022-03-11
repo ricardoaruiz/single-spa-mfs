@@ -44,7 +44,7 @@
   <!-- Add your organization's prod import map URL to this script's src  -->
   <script 
     type="systemjs-importmap" 
-    src="https://rar-single-spa-demo.s3.amazonaws.com/importmap.json">
+    src="https://rar-single-spa-demo.s3.amazonaws.com/import-mappings/importmap.json">
   </script>
 
   <% if (isLocal) { %>
@@ -59,7 +59,7 @@
       }
     </script>
   <%} else {%>
-    <link rel="preload" href="https://rar-single-spa-demo.s3.amazonaws.com/importmap.json" as="script">
+    <link rel="preload" href="https://rar-single-spa-demo.s3.amazonaws.com/import-mappings/importmap.json" as="script">
   <% } %>
 
   <!--

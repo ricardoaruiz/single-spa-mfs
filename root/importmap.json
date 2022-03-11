@@ -4,7 +4,7 @@
     "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
     "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
 
-    "@soma/root-config": "https://rar-single-spa-demo.s3.amazonaws.com/soma-root/soma-root-config.js",
+    "@soma/root-config": "https://rar-single-spa-demo.s3.amazonaws.com/soma-root-config.js",
     "@soma/navbar": "https://rar-single-spa-demo.s3.amazonaws.com/soma-navbar/soma-navbar.js",
     "@soma/exams": "https://rar-single-spa-demo.s3.amazonaws.com/soma-exams/soma-exams.js",
     "@soma/vaccines": "https://rar-single-spa-demo.s3.amazonaws.com/soma-vaccines/soma-vaccines.js"
