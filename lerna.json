@@ -2,6 +2,8 @@
   "packages": [
     "apps/navbar",
     "apps/utility",
+    "apps/exams",
+    "apps/vaccines",
     "apps/root"
 
   ],
