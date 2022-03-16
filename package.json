@@ -7,7 +7,7 @@
   "scripts": {
     "start": "yarn down && yarn up",
     "up": "lerna run start",
-    "down": "kill-port --port 9000,8081,8082,8083"
+    "down": "kill-port --port 9000,8081,8082,8083,8084"
   },
   "devDependencies": {
     "kill-port": "^1.6.1",

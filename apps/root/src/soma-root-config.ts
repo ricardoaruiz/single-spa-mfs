@@ -21,6 +21,13 @@ registerApplication({
   customProps: { domElement: document.getElementById('mf-vaccines') }
 });
 
+registerApplication({
+  name: "@soma/utility",
+  app: () => System.import("@soma/utility"),
+  activeWhen: () => true,
+  customProps: { domElement: document.getElementById('mf-vaccines') }
+});
+
 start({
   urlRerouteOnly: true,
 });

@@ -1,6 +1,10 @@
 {
   "packages": [
-    "apps/*"
+    "apps/navbar",
+    "apps/exams",
+    "apps/vaccines",
+    "apps/root"
+
   ],
   "version": "independent"
 }
