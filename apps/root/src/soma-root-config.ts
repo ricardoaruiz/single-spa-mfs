@@ -24,8 +24,7 @@ registerApplication({
 registerApplication({
   name: "@soma/utility",
   app: () => System.import("@soma/utility"),
-  activeWhen: () => true,
-  customProps: { domElement: document.getElementById('mf-vaccines') }
+  activeWhen: () => true
 });
 
 start({

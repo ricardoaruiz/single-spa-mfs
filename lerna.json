@@ -1,8 +1,7 @@
 {
   "packages": [
     "apps/navbar",
-    "apps/exams",
-    "apps/vaccines",
+    "apps/utility",
     "apps/root"
 
   ],

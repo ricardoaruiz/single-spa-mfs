@@ -1,4 +1,5 @@
 {
+  "baseUrl": "src",
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",

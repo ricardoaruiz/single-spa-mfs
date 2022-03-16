@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+            "@soma/vaccines": "http://localhost:8083/soma-vaccines.js",
+            "@soma/utility": "http://localhost:8084/soma-utility.js"
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      System.import('@soma/vaccines');
+      System.import('@soma/utility');
+    </script>
+</body>
+</html>

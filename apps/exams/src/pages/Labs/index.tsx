@@ -1,6 +1,5 @@
 import { TemplatePage } from '../Template'
 import { sum } from '@soma/utility'
-
 export const LabsPage = () => {
 
   const handleSumClick = () => {
